@@ -1,0 +1,29 @@
+---
+title: another page
+author: PX
+date: '2021-07-09'
+slug: another-page
+categories:
+  - R
+tags:
+  - test
+---
+
+# 这是一个标题
+
+
+
+```{r 这是一些代码}
+
+a <- "hello world"
+print(a)
+
+```
+
+
+- [x] Write an R package.
+- [ ] Write a book.
+- [ ] ...
+- [ ] Profit!
+
+
