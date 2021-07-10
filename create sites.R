@@ -22,6 +22,9 @@ blogdown::new_site()
 
 #create a website with the Hugo Wowchemy “starter-academic” project
 new_site(theme = "wowchemy/starter-academic")
+new_site(theme = "nanxstats/hugo-tanka")
+
+
 
 blogdown::serve_site() # start a local preview
 blogdown::stop_server() # stop a local preview
@@ -32,6 +35,21 @@ blogdown::check_site()
 
 
 
+# new post
+blogdown::new_post(title = "Hi Hugo", 
+                   ext = '.Rmarkdown', 
+                   subdir = "post")
+
+
+rstudioapi::navigateToFile("_index.md")
+
+blogdown::install_theme("nanxstats/hugo-tanka")
+
+blogdown::install_theme("wowchemy/starter-academic", theme_example = T)
 
 
 
+?install_theme
+
+
+,
