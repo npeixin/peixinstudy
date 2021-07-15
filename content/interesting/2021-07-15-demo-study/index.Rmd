@@ -1,10 +1,9 @@
 ---
-title: a
+title: demo_study
 author: px
-date: '2021-07-10'
+date: '2021-07-15'
 slug: []
 categories: []
 tags: []
 meta_img: images/image.png
-description: Description for the page
 ---

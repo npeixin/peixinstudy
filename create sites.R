@@ -36,9 +36,9 @@ blogdown::check_site()
 
 
 # new post
-blogdown::new_post(title = "Hi Hugo", 
+blogdown::new_post(title = "xxxxxx", 
                    ext = '.Rmarkdown', 
-                   subdir = "post")
+                   subdir = "interesting")
 
 
 rstudioapi::navigateToFile("_index.md")
@@ -50,6 +50,6 @@ blogdown::install_theme("wowchemy/starter-academic", theme_example = T)
 
 
 ?install_theme
-
+?blogdown::new_post
 
 ,

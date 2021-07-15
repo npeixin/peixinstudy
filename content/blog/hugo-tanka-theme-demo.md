@@ -2,6 +2,7 @@
 title: "Tanka Theme Demo"
 author: "Nan Xiao"
 date: "2020-11-21T12:00:00"
+tags: ["aaa"]
 meta_img: images/example.jpg
 ---
 

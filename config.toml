@@ -1,5 +1,5 @@
 baseurl = "https://example.com"
-title = "Peixin's blog"
+title = "Peixin 的杂七杂八"
 author = "Peixin Nie"
 canonifyurls = true
 languagecode = "en"
@@ -14,7 +14,7 @@ pygmentscodefences = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
 [params]
-  sitename = "Peixin's blog"
+  sitename = "Peixin 的杂七杂八"
   faviconfile = "images/logo.png"
   highlightjs = true
   highlightjslanguages = ["r", "python", "stan"]
@@ -33,11 +33,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     weight = 1
 [[menu.primary]]
     name = "学习笔记"
-    url = "/learningnotes/"
+    url = "/learningnotes"
     weight = 2
 [[menu.primary]]
     name = "异想天开"
-    url = "/think/"
+    url = "/think"
+    title = "abcd"
     weight = 3
 [[menu.primary]]
     name = "有意思"
