@@ -32,7 +32,17 @@ blogdown::stop_server() # stop a local preview
 # run a series of checks in your website project 
 # to help you identify common problems
 blogdown::check_site() 
+blogdown::check_gitignore()
+blogdown::check_content()
+blogdown::check_netlify()
 
+blogdown::check_hugo()
+
+
+rstudioapi::navigateToFile("config.yaml", line = 3)
+
+
+blogdown::check_config()
 
 
 # new post
