@@ -1,4 +1,4 @@
-baseurl = "https://px-study.netlify.app"
+baseurl = "https://github.com/nanxstats/hugo-tanka/blob/master/exampleSite/config.toml"
 title = "Peixin 的杂七杂八"
 author = "Peixin Nie"
 canonifyurls = true
