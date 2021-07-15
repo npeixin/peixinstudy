@@ -1,4 +1,4 @@
-baseurl = /
+baseurl = https://px-study.netlify.app/
 title = "Peixin 的杂七杂八"
 author = "Peixin Nie"
 canonifyurls = true
