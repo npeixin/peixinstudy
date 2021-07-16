@@ -24,7 +24,7 @@ blogdown::new_site()
 new_site(theme = "wowchemy/starter-academic")
 new_site(theme = "nanxstats/hugo-tanka")
 
-
+blogdown::build_site() 
 
 blogdown::serve_site() # start a local preview
 blogdown::stop_server() # stop a local preview
@@ -62,4 +62,4 @@ blogdown::install_theme("wowchemy/starter-academic", theme_example = T)
 ?install_theme
 ?blogdown::new_post
 
-,
+
